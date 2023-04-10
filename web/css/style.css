@@ -121,3 +121,22 @@ p {
   .contact-info li b {
     font-weight: bold;
   }
+
+  .language-switch {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .language-switch a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
