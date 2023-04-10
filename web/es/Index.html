@@ -3,31 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Zapatillas</title>
+    <title>Sneakers Place</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/LOGO_PNG.png" type="image/png">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="dropdown">
-                <span class="dropbtn">Marcas</span>
-                <div class="dropdown-content">
-                    <span class="marca">AirForce1</span>
-                    <span class="marca">Jordan1</span>
-                    <span class="marca">Jordan4</span>
+        <div class="banner">
+            <h1>SNKRZ GARDEN</h1>
+            <nav class="dropdown-nav">
+                <select onchange="location = this.value;">
+                    <option value="#" selected disabled>Selecciona un modelo</option>
+                    <option value="#airforce1">AIRFORCE 1</option>
+                    <option value="#jordan1">JORDAN 1</option>
+                    <option value="#jordan4">JORDAN 4</option>
+                </select>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="airforce1">
+            <h2>AIRFORCE 1</h2>
+            <div class="sneaker-container">
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-CHICAGO.jpg" alt="Zapatilla 1">
+                    <h3>JORDAN-1 "CHICAGO"</h3>
+                    <p>180€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-DARKMOCHA.jpg" alt="Zapatilla 2">
+                    <h3>JORDAN-1 "DARKMOCHA"</h3>
+                    <p>371€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-DJBALVIN.jpg" alt="Zapatilla 3">
+                    <h3>JORDAN-1 "DJBALVIN"</h3>
+                    <p>285€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-MOCHA.jpg" alt="Zapatilla 4">
+                    <h3>JORDAN-1 "MOCHA"</h3>
+                    <p>463€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-OFFWHITE.jpg" alt="Zapatilla 5">
+                    <h3>JORDAN-1-OFFWHITE</h3>
+                    <p>4.394€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-RACERBLUE.jpg" alt="Zapatilla 6">
+                    <h3>JORDAN-1 "RACERBLUE"</h3>
+                    <p>230€</p>
                 </div>
             </div>
-        </nav>
-        <h1>SNEAKERS PLACE</h1>
-    </header>
-    <div class="galeria">
-        <!-- Repetir este bloque para cada zapatilla -->
-        <div class="zapatilla">
-            <img src="ruta/al/imagen/zapatilla1.jpg" alt="Zapatilla 1">
-            <h2>Nombre del modelo</h2>
-            <p>Precio: $100</p>
-        </div>
-        <!-- Fin del bloque de zapatilla -->
-    </div>
+        </section>
+        <section id="jordan1">
+            <h2>JORDAN 1</h2>
+            <div class="sneaker-container">
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-CHICAGO.jpg" alt="Zapatilla 1">
+                    <h3>JORDAN-1 "CHICAGO"</h3>
+                    <p>180€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-DARKMOCHA.jpg" alt="Zapatilla 2">
+                    <h3>JORDAN-1 "DARKMOCHA"</h3>
+                    <p>371€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-DJBALVIN.jpg" alt="Zapatilla 3">
+                    <h3>JORDAN-1 "DJBALVIN"</h3>
+                    <p>285€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-MOCHA.jpg" alt="Zapatilla 4">
+                    <h3>JORDAN-1 "MOCHA"</h3>
+                    <p>463€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-OFFWHITE.jpg" alt="Zapatilla 5">
+                    <h3>JORDAN-1-OFFWHITE</h3>
+                    <p>4.394€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN1-RACERBLUE.jpg" alt="Zapatilla 6">
+                    <h3>JORDAN-1 "RACERBLUE"</h3>
+                    <p>230€</p>
+                </div>
+            </div>
+        </section>
+        <section id="jordan4">
+            <h2>JORDAN 4</h2>
+            <div class="sneaker-container">
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN4-BLACKCAT.jpg" alt="Zapatilla 1">
+                    <h3>JORDAN-4 "BLACKCAT"</h3>
+                    <p>724€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN4-CACTUSJACK.jpg" alt="Zapatilla 2">
+                    <h3>JORDAN-4 "CACTUSJACK"</h3>
+                    <p>837€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN4-COURTPURPLE.jpg" alt="Zapatilla 3">
+                    <h3>JORDAN-4 "COURTPURPLE"</h3>
+                    <p>523€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN4-OFFWHITE.jpg" alt="Zapatilla 4">
+                    <h3>JORDAN-4 "OFFWHITE"</h3>
+                    <p>811€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN4-REDMETALLIC.jpg" alt="Zapatilla 5">
+                    <h3>JORDAN-4 "REDMETALLIC"</h3>
+                    <p>679€</p>
+                </div>
+                <div class="sneaker-card">
+                    <img src="../img/JORDAN4-TRAVISSCOTT.jpg" alt="Zapatilla 6">
+                    <h3>JORDAN-4 "TRAVISSCOTT"</h3>
+                    <p>990€</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
