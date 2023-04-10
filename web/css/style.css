@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('../img/BANNER2.JPG');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    cursor: pointer;
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0);
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content .marca {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #f1f1f1;
+}
+
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.marca {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.zapatilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
