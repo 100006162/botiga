@@ -81,10 +81,11 @@ body {
   margin-bottom: 0;
 }
 
+
 .language-switch img {
-  width: 30px;
+  width: 1px;
   height: auto;
-  margin-right: 5px;
+  margin-right: 0px;
 }
 
 .language-label {
@@ -153,11 +154,24 @@ h2 {
   text-align: center;
 }
 
+.sneaker-card a {
+  text-decoration: none;
+  color: black;
+}
+
+
 .sneaker-card img {
   width: 100%;
   max-width: 250px;
   height: auto;
   margin: 0 auto 15px;
+  
+}
+
+.sneaker-card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  border-radius: 20px;
 }
 
 h3 {
@@ -170,3 +184,36 @@ p {
   color: #808080;
   font-weight: bold;
 }
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-image img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.product-details {
+  width: 45%;
+}
+
+.product-details h3 {
+  margin-bottom: 0.5em;
+}
+
+.product-details p {
+  margin-bottom: 1em;
+}
+
