@@ -245,7 +245,7 @@ p {
 }
 
 @media (max-width: 600px) {
-  /* Estilos que se aplican cuando la resolución es igual o inferior a 600px */
+
 
   .banner {
     height: 250px;
