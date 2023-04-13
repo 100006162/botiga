@@ -53,6 +53,12 @@ body {
   align-items: center;
 }
 
+.language-switch-bottom img {
+  width: 60px;
+  height: auto;
+}
+
+
 .language-switch {
   display: none;
   position: absolute;
@@ -83,7 +89,7 @@ body {
 
 
 .language-switch img {
-  width: 1px;
+  width: 24px;
   height: auto;
   margin-right: 0px;
 }
