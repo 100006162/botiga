@@ -243,3 +243,79 @@ p {
 .btn-back:hover {
   background-color: #666;
 }
+
+@media (max-width: 600px) {
+  /* Estilos que se aplican cuando la resolución es igual o inferior a 600px */
+
+  .banner {
+    height: 250px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+    padding: 5px 0;
+  }
+
+  .sneaker-container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .sneaker-card {
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .language-switch-bottom {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .language-switch {
+    position: static;
+    display: inline-flex;
+    margin-left: 10px;
+  }
+
+  .product-info {
+    flex-direction: column;
+  }
+
+  .product-image img {
+    width: 75%;
+  }
+
+  .product-details {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .product-details h3 {
+    text-align: center;
+  }
+
+  .btn-back {
+    margin-right: 0;
+    margin-top: 1em;
+  }
+}
+
+
+
+
+
